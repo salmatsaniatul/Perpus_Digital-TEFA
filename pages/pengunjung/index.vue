@@ -6,11 +6,11 @@
         <div class="my-3">
           <input type="search" class="form-control form-control-lg rounded-5" placeholder="Filter..." />
         </div>
-        <div class="my-3 text=muted">menampilkan 4 dari 4</div>
+        <div class="my-3 text=muted">menampilkan 1 dari 1</div>
         <table class="table">
           <thead>
             <tr>
-              <td>#</td>
+              <td>NO</td>
               <td>NAMA</td>
               <td>KATEGORI</td>
               <td>WAKTU</td>
@@ -30,4 +30,14 @@
       </div>
     </div>
   </div>
+  <div class="d-flex justify-content-end">
+    <nuxt-link to="/" class="btn btn-light btn-lg rounded-5 px-5 ms-auto">KEMBALI</nuxt-link>
+  </div>
 </template>
+
+<style scoped>
+.btn-light {
+  background-color: #5fd8fe !important;
+  box-shadow: 1px 1px 10px #5fd8fe !important;
+}
+</style>

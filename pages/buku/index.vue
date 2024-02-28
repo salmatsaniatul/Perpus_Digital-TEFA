@@ -10,33 +10,55 @@
           <div class="col-lg-2">
             <div class="card mb-3">
               <div class="card-body">
-                <img src="~/assets/img/ayah.jpg" class="cover" alt="gambar 1" />
+                <img src="~/assets/img/ayah.jpg" class="gambar" alt="gambar 1" />
               </div>
             </div>
           </div>
           <div class="col-lg-2">
             <div class="card mb-3">
               <div class="card-body">
-                <img src="~/assets/img/alaska.jpg" class="cover" alt="gambar 2" />
+                <img src="~/assets/img/alaska.jpg" class="gambar" alt="gambar 2" />
               </div>
             </div>
           </div>
           <div class="col-lg-2">
             <div class="card mb-3">
               <div class="card-body">
-                <img src="~/assets/img/bincang.jpg" class="cover" alt="gambar 3" />
+                <img src="~/assets/img/bincang.jpg" class="gambar" alt="gambar 3" />
               </div>
             </div>
           </div>
           <div class="col-lg-2">
             <div class="card mb-3">
               <div class="card-body">
-                <img src="~/assets/img/dandelion.jpg" class="cover" alt="gambar 4" />
+                <img src="~/assets/img/dandelion.jpg" class="gambar" alt="gambar 4" />
               </div>
             </div>
           </div>
+        </div>
+        <div class="d-flex justify-content-end">
+          <nuxt-link to="/" class="btn btn-light btn-lg rounded-5 px-5 ms-auto">KEMBALI</nuxt-link>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.card-body {
+  width: 100%;
+  height: 20em;
+  padding: 0;
+}
+.gambar {
+  width: 100%;
+  height: 100%;
+  object-fit: gambar;
+  object-position: 0 30;
+}
+
+.btn-light {
+  background-color: #5fd8fe !important;
+  box-shadow: 1px 1px 10px #5fd8fe !important;
+}
+</style>

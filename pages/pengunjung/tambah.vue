@@ -56,11 +56,21 @@
             </select>
           </div>
           <div class="d-flex justify-content-between">
-            <button type="sumbit" class="btn btn-dark btn-lg rounded-5 px-5" style="margin-top: 10px">KIRIM</button>
-            <nuxt-link to="/" class="btn btn-warning btn-lg rounded-5 px-5" style="margin-top: 10px">KEMBALI</nuxt-link>
+            <nuxt-link to="../pengunjung" class="btn btn-dark btn-lg rounded-5 px-5" style="margin-top: 10px">KIRIM</nuxt-link>
+            <nuxt-link to="/" class="btn btn-light btn-lg rounded-5 px-5" style="margin-top: 10px">KEMBALI</nuxt-link>
           </div>
         </form>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.btn-dark {
+  box-shadow: 1px 1px 10px #e4ecea !important;
+}
+.btn-light {
+  background-color: #5fd8fe !important;
+  box-shadow: 1px 1px 10px #5fd8fe !important;
+}
+</style>
