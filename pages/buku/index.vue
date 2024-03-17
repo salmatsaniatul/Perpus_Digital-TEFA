@@ -43,8 +43,8 @@
                 <div class="card-body">
                   <img
                     src="~/assets/img/bincang.jpg"
-                    class="gambar"
-                    alt="gambar 3"
+                    class="cover"
+                    alt="cover 3"
                   />
                 </div>
               </nuxt-link>
@@ -52,13 +52,15 @@
           </div>
           <div class="col-lg-2">
             <div class="card mb-3">
-              <div class="card-body">
-                <img
-                  src="~/assets/img/dandelion.jpg"
-                  class="gambar"
-                  alt="gambar 4"
-                />
-              </div>
+              <nuxt-link to="/buku/dandelion">
+                <div class="card-body">
+                  <img
+                    src="~/assets/img/dandelion.jpg"
+                    class="cover"
+                    alt="cover 4"
+                  />
+                </div>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -80,10 +82,10 @@
   height: 20em;
   padding: 0;
 }
-.gambar {
+.cover {
   width: 100%;
   height: 100%;
-  object-fit: gambar;
+  object-fit: cover;
   object-position: 0 30;
 }
 

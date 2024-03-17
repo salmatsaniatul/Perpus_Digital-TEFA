@@ -7,9 +7,9 @@
             <div class="card mb-3">
               <div class="card-body">
                 <img
-                  src="~/assets/img/ayah.jpg "
+                  src="~/assets/img/dandelion.jpg"
                   class="cover"
-                  alt="cover 2 "
+                  alt="cover 4 "
                 />
               </div>
             </div>
@@ -18,18 +18,18 @@
             class="col-lg-6"
             style="margin-left: 50px"
           >
-            <h1>Andrea Hirata</h1>
-            <p>Judul Novel : Ayah</p>
-            <p>Penulis : Andrea Hirata</p>
-            <p>Penerbit : PT Bentang Pustaka</p>
-            <p>Tahun terbit : Pertama, Mei 2015</p>
-            <p>Jumlah halaman : 412 halaman</p>
-            <p>ISBN : 9786022911029</p>
+            <h1>Dandelion Lovers</h1>
+            <p>Judul Novel : Dandelion Lovers</p>
+            <p>Penulis : Fahrul Khakim</p>
+            <p>Tahun terbit : 2015</p>
+            <p>Jumlah halaman : -</p>
+            <p>ISBN : -</p>
             <p>
-              Deskripsi : Novel Ayah ini mengabarkan bahwa Belitong tidak seindah Laskar Pelangi yang menerangkan panorama alam Belitong. Novel Ayah lebih mengisahkan kondisi sosial dan psikologi manusia Belitong. Membaca Ayah ini seperti
-              sedang mendengarkan paparan bagaimana manusia Belitong berinteraksi.
+              Deskripsi : May merasa dirinya bagai setangkai bunga dandelion yang kehilangan mahkotanya. Hampa dan merana. Putik indahnya diterbangkan angin bernama cinta. Bukan angin yang lembut tapi angin yang kacau bernama patah hati.
+              Angin yang membuat setangkai dandelion di tepi jalan jadi terlihat sama, tak memikat dan usang. Dandelion itu berusaha berdiri lagi.
             </p>
           </div>
+
           <div class="d-flex justify-content-between">
             <nuxt-link
               to="../pengunjung"
@@ -69,7 +69,6 @@ img {
   height: 300px;
   width: 200px;
 }
-
 .btn-light {
   background-color: #5fd8fe !important;
   box-shadow: 1px 1px 10px #5fd8fe !important;

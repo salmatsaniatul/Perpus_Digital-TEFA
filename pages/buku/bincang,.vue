@@ -9,7 +9,7 @@
                 <img
                   src="~/assets/img/bincang.jpg"
                   class="cover"
-                  alt="cover 1 "
+                  alt="cover 3 "
                 />
               </div>
             </div>
