@@ -4,9 +4,13 @@
       <div class="col-lg-12">
         <h2 class="text-center my-4">RIWAYAT KUNJUNGAN</h2>
         <div class="my-3">
-          <input type="search" class="form-control form-control-lg rounded-5" placeholder="Filter..." />
+          <input
+            type="search"
+            class="form-control form-control-lg rounded-5"
+            placeholder="Filter..."
+          />
         </div>
-        <div class="my-3 text=muted">menampilkan 1 dari 1</div>
+        <div class="my-3 text=muted">menampilkan 4 dari 4</div>
         <table class="table">
           <thead>
             <tr>
@@ -26,12 +30,43 @@
               <td>Pinjam Buku</td>
             </tr>
           </tbody>
+          <tbody>
+            <tr>
+              <td>2.</td>
+              <td>dita nursabila</td>
+              <td>Siswa</td>
+              <td>28 februari 2024, 10.21.03</td>
+              <td>mengembalikan buku</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>3.</td>
+              <td>elisa mardiyani</td>
+              <td>Siswa</td>
+              <td>28 februari 2024, 10.29.13</td>
+              <td>mengembalikan buku</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>4.</td>
+              <td>sofwatul jamilah</td>
+              <td>Siswa</td>
+              <td>18 Maret 2024, 10.22.13</td>
+              <td>Pinjam Buku</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>
   </div>
   <div class="d-flex justify-content-end">
-    <nuxt-link to="/" class="btn btn-light btn-lg rounded-5 px-5 ms-auto">KEMBALI</nuxt-link>
+    <nuxt-link
+      to="/"
+      class="btn btn-light btn-lg rounded-5 px-5 ms-auto"
+      >KEMBALI</nuxt-link
+    >
   </div>
 </template>
 

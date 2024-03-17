@@ -5,7 +5,11 @@
         <h2 class="text-center my-4">ISI BUKU KUNJUNGAN</h2>
         <form>
           <div class="mb-3">
-            <input type="text" class="form-control form-control-lg rounded-5" placeholder="Nama..." />
+            <input
+              type="text"
+              class="form-control form-control-lg rounded-5"
+              placeholder="Nama..."
+            />
           </div>
           <div class="mb-3">
             <select class="form-control form-control-lg form-select rounded-5">
@@ -52,12 +56,22 @@
               <option value="">KEPERLUAN</option>
               <option value="baca">Baca Buku</option>
               <option value="pinjam">Pinjam Buku</option>
-              <option value="kembalikan">Kembalikan Buku</option>
+              <option value="kembalikan">Mengembalikan Buku</option>
             </select>
           </div>
           <div class="d-flex justify-content-between">
-            <nuxt-link to="../pengunjung" class="btn btn-dark btn-lg rounded-5 px-5" style="margin-top: 10px">KIRIM</nuxt-link>
-            <nuxt-link to="/" class="btn btn-light btn-lg rounded-5 px-5" style="margin-top: 10px">KEMBALI</nuxt-link>
+            <nuxt-link
+              to="../pengunjung"
+              class="btn btn-dark btn-lg rounded-5 px-5"
+              style="margin-top: 10px"
+              >KIRIM</nuxt-link
+            >
+            <nuxt-link
+              to="/"
+              class="btn btn-light btn-lg rounded-5 px-5"
+              style="margin-top: 10px"
+              >KEMBALI</nuxt-link
+            >
           </div>
         </form>
       </div>
