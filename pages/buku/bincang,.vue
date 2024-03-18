@@ -6,19 +6,11 @@
           <div class="col-lg-2">
             <div class="card mb-3">
               <div class="card-body">
-                <img
-                  src="~/assets/img/bincang.jpg"
-                  class="cover"
-                  alt="cover 3 "
-                />
+                <img src="~/assets/img/bincang.jpg" class="cover" alt="cover 3 " />
               </div>
             </div>
           </div>
-          <div
-            class="col-lg-6"
-            style="margin-left: 50px"
-          >
-            >
+          <div class="col-lg-6" style="margin-left: 50px">
             <h1>Bincang Akhlak</h1>
             <p>Judul Novel : Bincang Akhlak</p>
             <p>Penulis : Takdir Alisyahbana Ridwan</p>
@@ -32,18 +24,8 @@
             </p>
           </div>
           <div class="d-flex justify-content-between">
-            <nuxt-link
-              to="../pengunjung"
-              class="btn btn-dark btn-lg rounded-5 px-5"
-              style="margin-top: 10px"
-              >KIRIM</nuxt-link
-            >
-            <nuxt-link
-              to="/buku"
-              class="btn btn-light btn-lg rounded-5 px-5"
-              style="margin-top: 10px"
-              >KEMBALI</nuxt-link
-            >
+            <nuxt-link to="../pengunjung" class="btn btn-dark btn-lg rounded-5 px-5" style="margin-top: 10px">KIRIM</nuxt-link>
+            <nuxt-link to="/buku" class="btn btn-light btn-lg rounded-5 px-5" style="margin-top: 10px">KEMBALI</nuxt-link>
           </div>
         </div>
       </div>

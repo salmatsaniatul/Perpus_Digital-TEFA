@@ -21,12 +21,7 @@
         </nuxt-link>
       </div>
 
-      <h2
-        class="mt-4"
-        style="font-family: ; margin-left=150px;"
-      >
-        STATISTIK
-      </h2>
+      <h2 class="mt-4" style="font-family: ; margin-left=150px;">STATISTIK</h2>
       <div class="col-lg-6">
         <nuxt-link to="/pengunjung">
           <div class="card kunjungan rounded-5 mt-5">
@@ -60,14 +55,14 @@
   box-shadow: 1px 1px 10px #1a41a5;
 }
 .card.bg-pengunjung {
-  background-image: url('../assets/img/bg-kunjungan.png');
+  background-image: url("../assets/img/bg-kunjungan.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   color: black;
 }
 .card.bg-buku {
-  background: url('../assets/img/bg-cari buku.png') no-repeat center center;
+  background: url("../assets/img/bg-cari buku.png") no-repeat center center;
   background-size: cover;
   color: black;
 }
