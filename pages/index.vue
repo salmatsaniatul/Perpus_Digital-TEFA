@@ -26,7 +26,7 @@
         <nuxt-link to="/pengunjung">
           <div class="card kunjungan rounded-5 mt-5">
             <div class="card-body text">
-              <h1>0</h1>
+              <h1>4</h1>
               <h2 class="pt-5">pengunjung</h2>
             </div>
           </div>
