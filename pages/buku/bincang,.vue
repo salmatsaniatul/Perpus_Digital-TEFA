@@ -11,7 +11,7 @@
             </div>
           </div>
           <div class="col-lg-6" style="margin-left: 50px">
-            <h1>Bincang Akhlak</h1>
+            <h1>Detail Buku</h1>
             <p>Judul Novel : Bincang Akhlak</p>
             <p>Penulis : Takdir Alisyahbana Ridwan</p>
             <p>Penerbit : Mediakita</p>

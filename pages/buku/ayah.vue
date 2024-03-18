@@ -6,19 +6,12 @@
           <div class="col-lg-2">
             <div class="card mb-3">
               <div class="card-body">
-                <img
-                  src="~/assets/img/ayah.jpg "
-                  class="cover"
-                  alt="cover 2 "
-                />
+                <img src="~/assets/img/ayah.jpg " class="cover" alt="cover 2 " />
               </div>
             </div>
           </div>
-          <div
-            class="col-lg-6"
-            style="margin-left: 50px"
-          >
-            <h1>Andrea Hirata</h1>
+          <div class="col-lg-6" style="margin-left: 50px">
+            <h1>Detail Buku</h1>
             <p>Judul Novel : Ayah</p>
             <p>Penulis : Andrea Hirata</p>
             <p>Penerbit : PT Bentang Pustaka</p>
@@ -31,18 +24,8 @@
             </p>
           </div>
           <div class="d-flex justify-content-between">
-            <nuxt-link
-              to="../pengunjung"
-              class="btn btn-dark btn-lg rounded-5 px-5"
-              style="margin-top: 10px"
-              >KIRIM</nuxt-link
-            >
-            <nuxt-link
-              to="/buku"
-              class="btn btn-light btn-lg rounded-5 px-5"
-              style="margin-top: 10px"
-              >KEMBALI</nuxt-link
-            >
+            <nuxt-link to="../pengunjung" class="btn btn-dark btn-lg rounded-5 px-5" style="margin-top: 10px">KIRIM</nuxt-link>
+            <nuxt-link to="/buku" class="btn btn-light btn-lg rounded-5 px-5" style="margin-top: 10px">KEMBALI</nuxt-link>
           </div>
         </div>
       </div>

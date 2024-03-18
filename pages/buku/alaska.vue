@@ -6,19 +6,12 @@
           <div class="col-lg-2">
             <div class="card mb-3">
               <div class="card-body">
-                <img
-                  src="~/assets/img/alaska.jpg"
-                  class="cover"
-                  alt="cover 1 "
-                />
+                <img src="~/assets/img/alaska.jpg" class="cover" alt="cover 1 " />
               </div>
             </div>
           </div>
-          <div
-            class="col-lg-6"
-            style="margin-left: 50px"
-          >
-            <h1>Teluk Alaska</h1>
+          <div class="col-lg-6" style="margin-left: 50px">
+            <h1>Detail Buku</h1>
             <p>Judul Novel : Teluk Alaska</p>
             <p>Penulis : Eka Aryani</p>
             <p>Penerbit : Bumi Semesta Media</p>
@@ -26,23 +19,13 @@
             <p>Jumlah halaman : 408 halaman</p>
             <p>ISBN : 978602550888</p>
             <p>
-              Deskripsi :Alister Reygan, cowok yang selalu menjadi idaman para wanita. Bukan hanya sekadar tampan, ia juga memiliki sebuah geng yang sering disebut sebagai ‘Penguasa Sekolah’.Nasib sial menimpa cewek teman sekelasnya. Ia
+              Deskripsi : Alister Reygan, cowok yang selalu menjadi idaman para wanita. Bukan hanya sekadar tampan, ia juga memiliki sebuah geng yang sering disebut sebagai ‘Penguasa Sekolah’.Nasib sial menimpa cewek teman sekelasnya. Ia
               selalu menjadi objek bullying oleh gengnya. Allister sebagai ketua selalu paling kasar dan semangat dalam mem-bully cewek tersebut.
             </p>
           </div>
           <div class="d-flex justify-content-between">
-            <nuxt-link
-              to="../pengunjung"
-              class="btn btn-dark btn-lg rounded-5 px-5"
-              style="margin-top: 10px"
-              >KIRIM</nuxt-link
-            >
-            <nuxt-link
-              to="/buku"
-              class="btn btn-light btn-lg rounded-5 px-5"
-              style="margin-top: 10px"
-              >KEMBALI</nuxt-link
-            >
+            <nuxt-link to="../pengunjung" class="btn btn-dark btn-lg rounded-5 px-5" style="margin-top: 10px">KIRIM</nuxt-link>
+            <nuxt-link to="/buku" class="btn btn-light btn-lg rounded-5 px-5" style="margin-top: 10px">KEMBALI</nuxt-link>
           </div>
         </div>
       </div>
