@@ -11,7 +11,7 @@
             </div>
           </div>
           <div class="col-lg-6" style="margin-left: 50px">
-            <h1>Detail Buku</h1>
+            <h1 style="text-align: center">Detail Buku</h1>
             <p>Judul Novel : Dandelion Lovers</p>
             <p>Penulis : Fahrul Khakim</p>
             <p>Tahun terbit : 2015</p>
