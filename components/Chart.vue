@@ -8,7 +8,7 @@ const data = {
   datasets: [
     {
       label: "Statistik pengunjung",
-      backgroundColor: "rgb(169, 169, 169)",
+      backgroundColor: "rgb(143, 138, 138)",
       bordercolor: "rgba(153, 102, 255, 1)",
       data: [20, 40, 45, 35, 35, 40, 60],
     },
