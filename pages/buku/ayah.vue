@@ -23,9 +23,8 @@
               sedang mendengarkan paparan bagaimana manusia Belitong berinteraksi.
             </p>
           </div>
-          <div class="d-flex justify-content-between">
-            <nuxt-link to="../pengunjung" class="btn btn-dark btn-lg rounded-5 px-5" style="margin-top: 10px">KIRIM</nuxt-link>
-            <nuxt-link to="/buku" class="btn btn-light btn-lg rounded-5 px-5" style="margin-top: 10px">KEMBALI</nuxt-link>
+          <div class="d-flex justify-content-end">
+            <nuxt-link to="/" class="btn btn-light btn-lg rounded-4 px-5 ms-auto">KEMBALI</nuxt-link>
           </div>
         </div>
       </div>

@@ -4,11 +4,7 @@
       <div class="col-lg-12">
         <h2 class="text-center my-4">RIWAYAT KUNJUNGAN</h2>
         <div class="my-3">
-          <input
-            type="search"
-            class="form-control form-control-lg rounded-5"
-            placeholder="Filter..."
-          />
+          <input type="search" class="form-control form-control-lg rounded-4" placeholder="Filter..." />
         </div>
         <div class="my-3 text=muted">menampilkan 4 dari 4</div>
         <table class="table">
@@ -62,11 +58,7 @@
     </div>
   </div>
   <div class="d-flex justify-content-end">
-    <nuxt-link
-      to="/"
-      class="btn btn-light btn-lg rounded-5 px-5 ms-auto"
-      >KEMBALI</nuxt-link
-    >
+    <nuxt-link to="/" class="btn btn-light btn-lg rounded-4 px-5 ms-auto">KEMBALI</nuxt-link>
   </div>
 </template>
 

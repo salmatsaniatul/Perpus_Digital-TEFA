@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class="d-flex justify-content-end">
-          <nuxt-link to="/" class="btn btn-light btn-lg rounded-5 px-5 ms-auto">KEMBALI</nuxt-link>
+          <nuxt-link to="/" class="btn btn-light btn-lg rounded-4 px-5 ms-auto">KEMBALI</nuxt-link>
         </div>
       </div>
     </div>
