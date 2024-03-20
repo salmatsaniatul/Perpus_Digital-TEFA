@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="a-img">
-      <img src="~/assets/img/LOGO-SMK4.png" alt="logo SMKN4" />
+      <img src="~/assets/img/LOGO-SMK4.png" alt="logo" />
     </div>
 
     <div class="a-text">
@@ -15,10 +15,9 @@
 </template>
 
 <style scoped>
-
 .header {
   display: flex;
-  height: 180px;
+  height: 140px;
   width: 100%;
   align-items: center;
   background-color: #265cb5;
