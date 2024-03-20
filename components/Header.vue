@@ -1,62 +1,39 @@
 <template>
-  <div class="Header">
-    <div class="h-img">
-      <img src="~/assets/img/LOGO-SMK4.png" />
+  <div class="header">
+    <div class="a-img">
+      <img src="~/assets/img/LOGO-SMK4.png" alt="logo SMKN4" />
     </div>
-    <div class="h-text">
-      <div class="t-judul">
-        <p>PERPUS DIGITAL</p>
-        <p>SMK NEGERI 4 TASIKMALAYA</p>
+
+    <div class="a-text">
+      <div class="i-judul">
+        <p>Perpus Digital</p>
       </div>
-      <p>Jl.Depok, Sukamenak, Purbaratu</p>
+      <p>SMKN 4 Tasikmalaya</p>
+      <p>JL.Depok, Sukamenak, Purbaratu</p>
     </div>
   </div>
 </template>
 
 <style scoped>
-.Header {
+
+.header {
   display: flex;
-  align-items: center;
+  height: 180px;
   width: 100%;
-  height: 150px;
-  background-color: #1a41a5 !important;
-  color: rgb(255, 255, 255, 100%);
+  align-items: center;
+  background-color: #265cb5;
+  color: #fff;
 }
-
-.h-img {
-  margin-left: 25px;
+.a-img > img {
+  width: 60%;
 }
-
-.h-img > img {
-  width: 80%;
-}
-
-.h-text {
-  margin-left: -15px;
+.a-text {
+  margin-left: -10px;
   line-height: 10px;
 }
-
-.t-judul {
-  font-size: 20px;
-  font-weight: 500;
-}
-@media only screen and (max-width: 40em) {
-  .h-img {
-    margin-left: 0.8rem;
-  }
-
-  .h-img > img {
-    width: 70%;
-  }
-
-  .h-text {
-    margin-left: -1.5rem;
-    line-height: 5px;
-  }
-
-  .t-judul {
-    font-size: 15px;
-    font-weight: 500;
-  }
+.i-judul {
+  font-size: 35px;
+  line-height: 1em;
+  font-weight: 600;
 }
 </style>

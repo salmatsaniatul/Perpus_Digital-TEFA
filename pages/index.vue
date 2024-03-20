@@ -26,7 +26,7 @@
         <nuxt-link to="/pengunjung">
           <div class="card kunjungan rounded-4 mt-5">
             <div class="card-body text">
-              <h1>4</h1>
+              <h1 class="ps-5">4</h1>
               <h2 class="pt-5 ps-5">pengunjung</h2>
             </div>
           </div>
@@ -36,7 +36,7 @@
         <nuxt-link to="/buku">
           <div class="card buku rounded-4 mt-5">
             <div class="card-body text">
-              <h1>4</h1>
+              <h1 class="ps-5">4</h1>
               <h2 class="pt-5 ps-5">Buku</h2>
             </div>
           </div>
@@ -53,6 +53,7 @@
 .card {
   height: 250px;
   box-shadow: 1px 1px 10px #1a41a5;
+  margin-top: 40px;
 }
 .card.bg-pengunjung {
   background-image: url("../assets/img/bg-kunjungan.png");

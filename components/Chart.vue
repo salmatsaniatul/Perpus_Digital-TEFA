@@ -10,7 +10,7 @@ const data = {
       label: "Statistik pengunjung",
       backgroundColor: "rgb(143, 138, 138)",
       bordercolor: "rgba(153, 102, 255, 1)",
-      data: [20, 40, 45, 35, 35, 40, 60],
+      data: [15, 32, 42, 27, 27, 32, 80],
     },
   ],
 };
