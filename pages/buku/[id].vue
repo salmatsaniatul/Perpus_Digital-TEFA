@@ -16,7 +16,10 @@
             <li class="list-group-item">Penulis : {{ buku.penulis }}</li>
             <li class="list-group-item">Penerbit : {{ buku.penerbit }}</li>
             <li class="list-group-item">Tahun Terbit : {{ buku.tahun_terbit }}</li>
-            <li class="list-group-item">Kategori : {{ buku.kategori }}</li>
+            <li class="list-group-item">
+              <span v-if="buku.kategori">Kategori: {{ buku.kategori.nama }}</span>
+              <span v-else>loading...</span>
+            </li>
             <li class="list-group-item">Rak : {{ buku.rak }}</li>
             <li class="list-group-item">Isbn : {{ buku.isbn }}</li>
             <li class="list-group-item">Jumlah Halaman : {{ buku.jumlah_halaman }}</li>
@@ -36,11 +39,11 @@ const supabase = useSupabaseClient();
 
 const route = useRoute();
 
-const buku = ref([]);
+const buku = ref({});
 
 const getBookById = async () => {
-  const { data, error } = await supabase.from("buku").select(`*, kategori(*)`).eq(`id`, route.params.id);
-  if (data) buku.value = data[0];
+  const { data, error } = await supabase.from("buku").select(`*, kategori(*)`).eq(`id`, route.params.id).single();
+  if (data) buku.value = data;
 };
 
 onMounted(() => {
