@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="my-3">
-          <form @sumbit.prevent="getBooks">
+          <form @submit.prevent="getBooks">
             <input v-model="keyword" type="search" class="form-control rounded-5" placeholder="Mau baca buku apa hari ini?" />
           </form>
         </div>
@@ -38,8 +38,8 @@ const banyak = ref([]);
 
 const getBooks = async () => {
   const { data, error } = await supabase.from("buku").select(`*, kategori(*)`).ilike("judul", `%${keyword.value}%`);
-  if (error) throw error;
   if (data) books.value = data;
+  if (error) throw error;
 };
 
 const banyakBuku = async () => {
