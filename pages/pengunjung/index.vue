@@ -6,7 +6,7 @@
         <div class="my-3">
           <input type="search" class="form-control form-control-lg rounded-4" placeholder="Filter..." />
         </div>
-        <div class="my-3 text=muted">menampilkan 4 dari 4</div>
+        <div class="my-3 text=muted">menampilkan {{ visitors.length }} dari {{ banyak }}</div>
         <table class="table">
           <thead>
             <tr>
@@ -18,39 +18,15 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1.</td>
-              <td>salma tsaniatul</td>
-              <td>Siswa</td>
-              <td>27 februari 2024, 09.22.13</td>
-              <td>Pinjam Buku</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>2.</td>
-              <td>dita nursabila</td>
-              <td>Siswa</td>
-              <td>28 februari 2024, 10.21.03</td>
-              <td>mengembalikan buku</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>3.</td>
-              <td>elisa mardiyani</td>
-              <td>Siswa</td>
-              <td>28 februari 2024, 10.29.13</td>
-              <td>mengembalikan buku</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>4.</td>
-              <td>sofwatul jamilah</td>
-              <td>Siswa</td>
-              <td>18 Maret 2024, 10.22.13</td>
-              <td>Pinjam Buku</td>
+            <tr v-for="(visitor, i) in visitors" :key="i">
+              <td>{{ i + 1 }}.</td>
+              <td>{{ visitor.nama }}</td>
+              <td>{{ visitor.keanggotaan.nama }}</td>
+              <!-- <td>{{ visitor.tingkat.nama }}</td>
+              <td>{{ visitor.jurusan.nama }}</td>
+              <td>{{ visitor.kelas.nama }}</td> -->
+              <td>{{ visitor.tanggal }},{{ visitor.waktu }}</td>
+              <td>{{ visitor.keperluan.nama }}</td>
             </tr>
           </tbody>
         </table>
@@ -58,9 +34,34 @@
     </div>
   </div>
   <div class="d-flex justify-content-end">
-    <nuxt-link to="/" class="btn btn-light btn-lg rounded-4 px-5 ms-auto">KEMBALI</nuxt-link>
+    <nuxt-link to="/" class="btn btn-light btn-lg rounded-4 px-4 ms-auto">KEMBALI</nuxt-link>
   </div>
 </template>
+
+<script setup>
+const supabase = useSupabaseClient();
+
+const keyword = ref([]);
+
+const visitors = ref([]);
+
+const banyak = ref([]);
+
+const getPengunjung = async () => {
+  const { data, error } = await supabase.from("pengunjung").select(`*,keanggotaan(*),keperluan(*)`).ilike("nama", `%${keyword.value}%`).order("id", { ascending: false });
+  if (data) visitors.value = data;
+};
+
+const banyakPengunjung = async () => {
+  const { data, count } = await supabase.from("pengunjung").select(`*`, { count: "exact" });
+  if (data) banyak.value = count;
+};
+
+onMounted(() => {
+  getPengunjung();
+  banyakPengunjung();
+});
+</script>
 
 <style scoped>
 .btn-light {
