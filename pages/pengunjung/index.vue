@@ -4,7 +4,9 @@
       <div class="col-lg-12">
         <h2 class="text-center my-4">RIWAYAT KUNJUNGAN</h2>
         <div class="my-3">
-          <input type="search" class="form-control form-control-lg rounded-4" placeholder="Filter..." />
+          <form @submit.prevent="getPengunjung">
+            <input v-model="keyword" type="search" class="form-control form-control-lg rounded-4" placeholder="Filter..." />
+          </form>
         </div>
         <div class="my-3 text=muted">menampilkan {{ visitors.length }} dari {{ banyak }}</div>
         <table class="table">

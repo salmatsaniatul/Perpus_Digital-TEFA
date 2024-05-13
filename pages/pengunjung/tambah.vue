@@ -51,7 +51,7 @@
             </select>
           </div>
           <div class="d-flex justify-content-between">
-            <button type="sumbit" class="btn btn-dark btn-lg rounded-4 px-5" style="margin-top: 10px">KIRIM</button>
+            <button type="submit" class="btn btn-dark btn-lg rounded-4 px-5" style="margin-top: 10px">KIRIM</button>
             <nuxt-link to="/" class="btn btn-light btn-lg rounded-4 px-4" style="margin-top: 10px">KEMBALI</nuxt-link>
           </div>
         </form>
