@@ -85,7 +85,7 @@ onMounted(() => {
   color: rgb(0, 0, 0, 60%);
 }
 .card.bg-buku {
-  background: url("../assets/img/bg-cari buku.png") no-repeat center center;
+  background: url("../assets/img/bg-caribuku.png") no-repeat center center;
   background-size: cover;
   color: rgb(0, 0, 0, 60%);
 }
