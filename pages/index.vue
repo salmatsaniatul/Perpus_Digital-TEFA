@@ -80,7 +80,7 @@ onMounted(() => {
 }
 .card.bg-pengunjung {
   background-image: url("../assets/img/bg-kunjungan.webp");
-  background-refeat: no-refeat;
+  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   color: rgb(0, 0, 0, 60%);
