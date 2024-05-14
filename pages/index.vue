@@ -107,7 +107,7 @@ onMounted(() => {
   font-size: 7rem;
 }
 .card {
-  width: 92%;
-  margin-left: 5%;
+  width: 100%;
+  margin-left: 2%;
 }
 </style>
