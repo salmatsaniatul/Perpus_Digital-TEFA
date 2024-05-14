@@ -75,19 +75,19 @@ onMounted(() => {
 <style scoped>
 .card {
   height: 250px;
-  width: 700px;
+  width: 900px;
   box-shadow: 1px 1px 10px #1a41a5;
   margin-top: 40px;
 }
 .card.bg-pengunjung {
-  background-image: url("../assets/img/bg-kunjungan.png");
+  background-image: url("../assets/img/bg-kunjungan.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   color: rgb(0, 0, 0, 60%);
 }
 .card.bg-buku {
-  background: url("../assets/img/bg-caribuku.png") no-repeat center center;
+  background: url("../assets/img/bg-caribuku.webp") no-repeat center center;
   background-size: cover;
   color: rgb(0, 0, 0, 60%);
 }
