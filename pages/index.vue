@@ -28,7 +28,7 @@
           <div class="card kunjungan rounded-4 mt-5">
             <div class="card-body text">
               <h1 class="ps-5">{{ jumlahp }}</h1>
-              <h2 class="pt-5 ps-5">pengunjung</h2>
+              <h2 class="pt-5 ps-3">pengunjung</h2>
             </div>
           </div>
         </nuxt-link>
