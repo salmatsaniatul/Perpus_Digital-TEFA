@@ -25,6 +25,7 @@
 }
 .a-img > img {
   width: 60%;
+  height: 50%;
 }
 .a-text {
   margin-left: -10px;
