@@ -75,13 +75,12 @@ onMounted(() => {
 <style scoped>
 .card {
   height: 250px;
-  width: 900px;
   box-shadow: 1px 1px 10px #1a41a5;
   margin-top: 40px;
 }
 .card.bg-pengunjung {
   background-image: url("../assets/img/bg-kunjungan.webp");
-  background-repeat: no-repeat;
+
   background-position: center center;
   background-size: cover;
   color: rgb(0, 0, 0, 60%);
@@ -106,5 +105,9 @@ onMounted(() => {
 }
 .text > h1 {
   font-size: 7rem;
+}
+.card {
+  width: 65%;
+  margin-left: 20%;
 }
 </style>
