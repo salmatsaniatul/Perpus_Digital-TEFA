@@ -1,4 +1,5 @@
 <template>
+  <title>halaman menu</title>
   <div class="container-fluid">
     <div class="row my-5">
       <div class="col-lg-6">

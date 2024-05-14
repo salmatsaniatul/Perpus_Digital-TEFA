@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="a-img">
-      <img src="~/assets/img/LOGO-SMK4.png" alt="logo" />
+      <img src="~/assets/img/LOGO-SMK4.webp" alt="logo" />
     </div>
 
     <div class="a-text">
