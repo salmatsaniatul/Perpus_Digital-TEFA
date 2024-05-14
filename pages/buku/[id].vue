@@ -68,7 +68,7 @@ h3 {
 }
 img {
   height: 300px;
-  width: 200px;
+  width: 100px;
 }
 
 .btn-light {

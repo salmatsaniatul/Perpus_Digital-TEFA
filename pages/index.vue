@@ -1,5 +1,4 @@
 <template>
-  <title>halaman menu</title>
   <div class="container-fluid">
     <div class="row my-5">
       <div class="col-lg-6">
@@ -51,6 +50,15 @@
 </template>
 
 <script setup>
+useHead({
+  title: "PERPUS DIGITAL",
+  meta: [
+    {
+      name: "description",
+      content: "Selamat datang diperpus digital SMKN 4",
+    },
+  ],
+});
 const supabase = useSupabaseClient();
 
 const jumlahp = ref(0);

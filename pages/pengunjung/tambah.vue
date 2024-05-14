@@ -61,6 +61,15 @@
 </template>
 
 <script setup>
+useHead({
+  title: "PERPUS DIGITAL",
+  meta: [
+    {
+      name: "description",
+      content: "Halaman isi buku kunjungan",
+    },
+  ],
+});
 const supabase = useSupabaseClient();
 
 const members = ref([]);
