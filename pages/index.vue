@@ -33,14 +33,12 @@
         </nuxt-link>
       </div>
       <div class="col-lg-6">
-        <nuxt-link to="/buku">
-          <div class="card buku rounded-4 mt-5">
-            <div class="card-body text">
-              <h1 class="ps-5">{{ jumlahb }}</h1>
-              <h2 class="pt-5 ps-5">Buku</h2>
-            </div>
+        <div class="card buku rounded-4 mt-5">
+          <div class="card-body text">
+            <h1 class="ps-5">{{ jumlahb }}</h1>
+            <h2 class="pt-5 ps-5">Buku</h2>
           </div>
-        </nuxt-link>
+        </div>
       </div>
     </div>
   </div>
