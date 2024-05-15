@@ -3,7 +3,7 @@
     <div class="row">
       <h3 class="t" style="text-align: center">Detail buku</h3>
       <div class="col-lg-2">
-        <div class="card mt-5">
+        <div class="card mt-10">
           <div class="card-body">
             <img :src="buku.cover" class="cover" alt="cover" />
           </div>
