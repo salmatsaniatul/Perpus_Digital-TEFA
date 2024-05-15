@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div class="row my-5">
-      <div class="col-lg-6">
+      <!-- <div class="col-lg-6">
         <nuxt-link to="/pengunjung/tambah">
           <div class="card bg-pengunjung rounded-4">
             <div class="card-body">
@@ -19,7 +19,7 @@
             </div>
           </div>
         </nuxt-link>
-      </div>
+      </div> -->
 
       <h2 class="mt-4" style="font-family: ; margin-left=150px;">STATISTIK</h2>
       <div class="col-lg-6">
