@@ -85,15 +85,15 @@ onMounted(() => {
   margin-top: 40px;
 }
 .card.bg-pengunjung {
-  /* background-image: url("../assets/img/bg-kunjungan.webp");
+  background-image: url("../assets/img/bg-kunjungan.webp");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover; */
+  background-size: cover;
   color: rgb(0, 0, 0, 80%);
 }
 .card.bg-buku {
-  /* background: url("../assets/img/bg-caribuku.webp") no-repeat center center;
-  background-size: cover; */
+  background: url("../assets/img/bg-caribuku.webp") no-repeat center center;
+  background-size: cover;
   color: rgb(0, 0, 0, 80%);
 }
 .card.kunjungan {
