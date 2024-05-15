@@ -89,12 +89,12 @@ onMounted(() => {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  color: rgb(0, 0, 0, 60%);
+  color: rgb(0, 0, 0, 80%);
 }
 .card.bg-buku {
   background: url("../assets/img/bg-caribuku.webp") no-repeat center center;
   background-size: cover;
-  color: rgb(0, 0, 0, 60%);
+  color: rgb(0, 0, 0, 80%);
 }
 .card.kunjungan {
   background-color: rgb(244, 235, 15, 20%);
