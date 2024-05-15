@@ -24,8 +24,9 @@
   color: #fff;
 }
 .a-img > img {
-  width: 60%;
+  width: 75%;
   height: 50%;
+  margin-left: 8%;
 }
 .a-text {
   margin-left: -10px;
