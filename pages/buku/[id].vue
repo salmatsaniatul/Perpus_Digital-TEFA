@@ -52,23 +52,8 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.cover {
-  height: 300px;
-  width: 200px;
-}
-.card.mb-3 {
-  margin-top: 50px;
-  margin-left: 20px;
-  height: 340px;
-  width: 235px;
-}
-h3 {
-  margin-top: 50px;
-  margin-right: 20px;
-}
 img {
-  height: 300px;
-  width: 100px;
+  width: 100%;
 }
 
 .btn-light {
